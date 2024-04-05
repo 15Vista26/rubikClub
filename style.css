@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #043d84;
+}
+
+.navbar .logo {
+  height: 7.5em;
+  width: 45%;
+}
+.navbar .logo img {
+  height: 50%;
+  width: 100%;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+.navbar ul a {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li {
+  padding: 1.5em;
+}
+.navbar ul a:hover {
+  color: rgb(229, 126, 30);
+}
+.menu {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding-right: 5em;
+  font-size: 1.2em;
+}
+.rubik_photo {
+  height: 30em;
+  background-color: bisque;
+}
+.rubik_photo img {
+  padding-top: 0.5em;
+  height: 99%;
+  width: 100%;
+}
+
+.testimonial_video {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
+#carouselExampleIndicators {
+  padding-bottom: 5em;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #212121;
+  padding: 2em 0;
+}
+.contact .contact1 h5 {
+  color: #fff;
+}
+.contact .contact1 p {
+  color: #fff;
+  padding: 0.1em;
+  margin: 0.15em;
+  font-size: small;
+}
+.footer {
+  background-color: #525050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0.5em;
+}

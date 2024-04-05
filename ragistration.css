@@ -1,0 +1,95 @@
+/*
+webd css
+design css
+dance and song css
+photography css
+video and audio editing css
+
+ */
+
+ * {
+    margin: 0%;
+    padding: 0%;
+  }
+  .navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color: #043d84;
+  }
+  
+  .navbar .logo{
+    height: 7.5em;
+    width: 45%;
+  }
+  .navbar .logo img {
+    height: 50%;
+    width: 100%;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .navbar ul a {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar ul li {
+    padding: 1.5em;
+  }
+  .navbar ul a:hover {
+    color: rgb(229, 126, 30); 
+  }
+  .menu {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding-right: 5em;
+    font-size: 1.2em;
+  }
+  .Ragistration{
+    height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: darkgrey;
+    
+  }
+  
+  .Ragistration .form{
+    height: 30em;
+    background-color: rgb(241, 241, 242);
+    width: 60em;
+    border-radius: 3em;
+  }
+  
+
+  
+
+  .contact{
+    display: flex;
+    justify-content:space-around;
+    background-color: #212121;
+  }
+  .contact .contact1{
+    height: 6.5em;
+  }
+  .contact .contact1 h3{
+    color: #fff;
+    padding-top: .5em;
+  }
+  .contact .contact1 p{
+    color: #fff;
+    padding: .2em;
+    font-size:small;
+  }
+  .footer{
+    background-color: #525050;
+    display: flex;
+    justify-content: center;
+    height: 2em;
+  }
+  
+  .footer p{
+    color: #fff;
+    padding-top: 0.5em;
+  }

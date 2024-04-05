@@ -1,0 +1,107 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #043d84;
+}
+
+.navbar .logo {
+  height: 7.5em;
+  width: 45%;
+}
+.navbar .logo img {
+  height: 50%;
+  width: 100%;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+.navbar ul a {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li {
+  padding: 1.5em;
+}
+.navbar ul a:hover {
+  color: rgb(229, 126, 30);
+}
+.menu {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding-right: 5em;
+  font-size: 1.2em;
+}
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(241, 241, 242);
+}
+.team .team1 {
+  height: 20em;
+  width: 38em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #043d84;
+  color: white;
+  border-radius: 25%;
+  margin: 1em;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.team .team1 h1 {
+  padding-bottom: 1em;
+}
+/* .team .team1 table tr{
+    padding-top: 10em;
+    
+} */
+.team .team1 a {
+  text-decoration: none;
+}
+.team .team1 a:hover {
+  color: rgb(220, 12, 19);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #212121;
+}
+.contact .contact1 {
+  height: 6.5em;
+}
+.contact .contact1 h3 {
+  color: #fff;
+  padding-top: 0.5em;
+}
+.contact .contact1 p {
+  color: #fff;
+  padding: 0.2em;
+  font-size: small;
+}
+.footer {
+  background-color: #525050;
+  display: flex;
+  justify-content: center;
+  height: 2em;
+}
+
+.footer p {
+  color: #fff;
+  padding-top: 0.5em;
+}
+tr td {
+  padding: 1em;
+}
